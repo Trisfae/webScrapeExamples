@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import time
 
 counter = 1
 
@@ -29,6 +30,7 @@ for x in range(10):
             print('            ' + text.text)
 
     counter += 1
+    time.sleep(1)
 counter = 0
 
 
